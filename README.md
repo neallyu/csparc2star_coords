@@ -1,6 +1,6 @@
 # csparc2star_coords
 
-## Export particle cooridnates from Cryosparc 2.x to Relion 3.0
+Export particle coordinates from Cryosparc 2.x to Relion 3.0
 
 ## Prerequisites
 
