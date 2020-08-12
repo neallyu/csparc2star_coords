@@ -1,4 +1,5 @@
 # csparc2star_coords
+
 ## Export particle cooridnates from Cryosparc 2.x to Relion 3.0
 
 ## Prerequisites
@@ -21,5 +22,7 @@ pip install --no-dependencies -e .
 python csparc2star_coords.py -i INPUT -o OUTPUT_DIR
 ```
 where INPUT is the .cs file, OUTPUT_DIR should has the same name with micrograph folder, e.g. Movies
+
 3. Edit the coords_suffix_manualpick.star, select a CTF estimation job for extraction
+
 4. Start relion and do particle extraction
