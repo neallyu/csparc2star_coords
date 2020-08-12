@@ -21,8 +21,8 @@ pip install --no-dependencies -e .
 ```
 python csparc2star_coords.py -i INPUT -o OUTPUT_DIR
 ```
-where INPUT is the .cs file, OUTPUT_DIR should has the same name with micrograph folder, e.g. Movies
+where INPUT is the .cs file, OUTPUT_DIR must be same with relion import micrograph folder, e.g. Movies
 
 3. Edit the coords_suffix_manualpick.star, select a CTF estimation job for extraction
 
-4. Start relion and do particle extraction
+4. Start relion and do particle extraction, fill the "micrograph STAR file" with the CTF job and the "Input coordinate" with the coords_suffix_manualpick.star
